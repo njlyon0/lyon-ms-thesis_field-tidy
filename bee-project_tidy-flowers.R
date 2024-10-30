@@ -110,17 +110,17 @@ sort(unique(flr.both_v2$nectar.common))
 flr.both_v3 <- flr.both_v2 %>% 
   dplyr::group_by(capture.year, capture.month, capture.day, 
                   pasture, patch, nectar.common) %>% 
-  dplyr::summarize(flower_total = sum(flower_ct, na.rm = T),
+  dplyr::summarize(flower.total = sum(flower_ct, na.rm = T),
                    .groups = "keep") %>% 
   dplyr::ungroup() %>% 
   # Remove any rows with 0 flowers
-  dplyr::filter(flower_total > 0)
+  dplyr::filter(flower.total > 0)
 
 # Re-check structure
 dplyr::glimpse(flr.both_v3)
 
 # Export this tidied data!
 write.csv(x = flr.both_v3, row.names = F, na = '',
-          file = file.path("data", "tidy-data", "bee-project_tidy-flowers_2017-18.csv"))
+          file = file.path("data", "tidy-data", "bee-project_tidy-flowers.csv"))
 
 # End ----

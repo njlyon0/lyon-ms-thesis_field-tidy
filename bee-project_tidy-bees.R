@@ -231,6 +231,6 @@ dplyr::glimpse(bz.both_v3)
 
 # Export this tidied data!
 write.csv(x = bz.both_v3, row.names = F, na = '',
-          file = file.path("data", "tidy-data", "bee-project_tidy-bees_2017-18.csv"))
+          file = file.path("data", "tidy-data", "bee-project_tidy-bees.csv"))
 
 # End ----
