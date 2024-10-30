@@ -12,7 +12,7 @@
 
 # Set required libraries
 # install.packages("librarian")
-librarian::shelf(tidyverse, vegan)
+librarian::shelf(tidyverse)
 
 # Clear environment & collect garbage
 rm(list = ls()); gc()
@@ -75,11 +75,7 @@ dplyr::glimpse(bz.17_v2)
 # Do some QC on the remaining rows
 bz.17_v3 <- bz.17_v2 %>% 
   # Remove instances where bees were not found or otherwise not recorded
-  dplyr::filter(!species %in% c("X.X", ".")) %>% 
-  # Remove all bowls if less than 80% of the bowls were recovered
-  dplyr::filter(bowls.recovered_percent >= 80) %>% 
-  # Then drop that column
-  dplyr::select(-bowls.recovered_percent)
+  dplyr::filter(!species %in% c("X.X", "."))
 
 # Final structure check
 dplyr::glimpse(bz.17_v3)
@@ -158,7 +154,9 @@ bz.18_v2 <- bz.18_v1 %>%
   dplyr::group_by(sampling.event.id, height_cm) %>% 
   dplyr::mutate(bowls.recovered_ct = length(unique(bowl.position)),
                 bowls.recovered_percent = (bowls.recovered_ct / 6) * 100) %>% 
-  dplyr::ungroup()
+  dplyr::ungroup() %>% 
+  # Then drop the 'count' column
+  dplyr::select(-bowls.recovered_ct)
 
 # Check structure
 dplyr::glimpse(bz.18_v2)
@@ -167,13 +165,10 @@ dplyr::glimpse(bz.18_v2)
 bz.18_v3 <- bz.18_v2 %>%
   # Remove 'bad' species
   dplyr::filter(!species %in% c("X.x", ".", "Andrena.sp", "Hylaeus.sp")) %>% 
-  # Remove all bowls if less than 80% of the bowls were recovered
-  dplyr::filter(bowls.recovered_percent >= 80) %>% 
-  # Then drop that column
-  dplyr::select(-dplyr::starts_with("bowls.recovered_")) %>% 
   # Summarize bees within critical columns
   dplyr::group_by(capture.year, capture.date, pasture, patch, height_cm,
-                  bowl.color, bowl.size_oz, family, genus, species) %>% 
+                  bowls.recovered_percent, bowl.color, bowl.size_oz, 
+                  family, genus, species) %>% 
   dplyr::summarize(bee.total = sum(number, na.rm = T),
                    .groups = "keep") %>% 
   dplyr::ungroup()
@@ -195,8 +190,22 @@ bz.both_v1 <- dplyr::bind_rows(bz.18_v3, bz.17_v3)
 # Check structure
 dplyr::glimpse(bz.both_v1)
 
-# Fill in some last critical information
+# There should be 6 bowls / transect / "height"; check distribution
+hist(x = bz.both_v1$bowls.recovered_percent)
+
+# Drop instances where insufficiently many bowls were recovered
 bz.both_v2 <- bz.both_v1 %>% 
+  dplyr::filter(bowls.recovered_percent >= 80) %>%
+  dplyr::select(-bowls.recovered_percent)
+
+# How many rows were lost?
+nrow(bz.both_v1) - nrow(bz.both_v2)
+
+# Check structure
+dplyr::glimpse(bz.both_v2)
+
+# Fill in some last critical information
+bz.both_v3 <- bz.both_v2 %>% 
   # Be explicit about bowl color and bowl size
   dplyr::mutate(
     ## Still used blue/white/yellow in 2017 but didn't record it
@@ -215,10 +224,10 @@ bz.both_v2 <- bz.both_v1 %>%
                               .fns = as.numeric))
 
 # Check structure
-dplyr::glimpse(bz.both_v2)
+dplyr::glimpse(bz.both_v3)
 
 # Export this tidied data!
-write.csv(x = bz.both_v2, row.names = F, na = '',
+write.csv(x = bz.both_v3, row.names = F, na = '',
           file = file.path("data", "tidy-data", "bee-project_tidy-bees_2017-18.csv"))
 
 # End ----
