@@ -84,9 +84,9 @@ bz.17_v3 <- bz.17_v2 %>%
 # Final structure check
 dplyr::glimpse(bz.17_v3)
 
-# Export this tidied data!
-write.csv(x = bz.17_v3, row.names = F, na = '',
-          file = file.path("data", "tidy-data", "bee-project_tidy-bees_2017.csv"))
+# # Export this tidied data!
+# write.csv(x = bz.17_v3, row.names = F, na = '',
+#           file = file.path("data", "tidy-data", "bee-project_tidy-bees_2017.csv"))
 
 ##  ------------------------------------------  ##      
             # 2018 Standardization ----
@@ -181,9 +181,44 @@ bz.18_v3 <- bz.18_v2 %>%
 # Final structure check
 dplyr::glimpse(bz.18_v3)
 
-# Export this tidied data!
-write.csv(x = bz.18_v3, row.names = F, na = '',
-          file = file.path("data", "tidy-data", "bee-project_tidy-bees_2018.csv"))
+# # Export this tidied data!
+# write.csv(x = bz.18_v3, row.names = F, na = '',
+#           file = file.path("data", "tidy-data", "bee-project_tidy-bees_2018.csv"))
 
+##  ------------------------------------------  ##      
+# Combine Years ----
+##  ------------------------------------------  ##      
+
+# Combine the two data files
+bz.both_v1 <- dplyr::bind_rows(bz.18_v3, bz.17_v3)
+
+# Check structure
+dplyr::glimpse(bz.both_v1)
+
+# Fill in some last critical information
+bz.both_v2 <- bz.both_v1 %>% 
+  # Be explicit about bowl color and bowl size
+  dplyr::mutate(
+    ## Still used blue/white/yellow in 2017 but didn't record it
+    bowl.color = dplyr::case_when(
+      capture.year == 2017 & is.na(bowl.color) == T ~ "unrecorded",
+      T ~ bowl.color),
+    ## All bowls were 3.25 oz in 2017
+    bowl.size_oz = dplyr::case_when(
+      capture.year == 2017 & is.na(bowl.size_oz) == T ~ 3.25,
+      T ~ bowl.size_oz)
+    ) %>% 
+  # Put capture date in a less ambiguous format
+  tidyr::separate_wider_delim(cols = capture.date, delim = ".",
+                              names = c("capture.month", "capture.day")) %>% 
+  dplyr::mutate(dplyr::across(.cols = dplyr::starts_with("capture."),
+                              .fns = as.numeric))
+
+# Check structure
+dplyr::glimpse(bz.both_v2)
+
+# Export this tidied data!
+write.csv(x = bz.both_v2, row.names = F, na = '',
+          file = file.path("data", "tidy-data", "bee-project_tidy-bees_2017-18.csv"))
 
 # End ----
