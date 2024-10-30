@@ -1,0 +1,515 @@
+﻿pasture,patch,year,transect,fire_treatment,years_since_fire,adaptive_mgmt,stocking_treatment,herbicide_treatment,years_since_herbicide
+235,C,2014,,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+235,C,2015,,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+235,C,2016,,patch burn,0,patch burn graze,season-long stocking,spray and seed,2.5
+235,C,2017,,patch burn,1,patch burn graze,season-long stocking,spray and seed,3.5
+235,C,2018,,patch burn,2,patch burn graze,season-long stocking,spray and seed,4.5
+235,N,2014,,patch burn,0,patch burn graze,season-long stocking,control,unknown
+235,N,2015,,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+235,N,2016,,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+235,N,2017,,patch burn,0,patch burn graze,season-long stocking,spray and seed,2.5
+235,N,2018,,patch burn,1,patch burn graze,season-long stocking,spray and seed,3.5
+235,S,2014,,patch burn,2,patch burn graze,season-long stocking,control,unknown
+235,S,2014,,patch burn,2,patch burn graze,season-long stocking,control,unknown
+235,S,2015,,patch burn,0,patch burn graze,season-long stocking,control,unknown
+235,S,2016,T1,patch burn,1,patch burn graze,season-long stocking,control,unknown
+235,S,2016,T2,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+235,S,2017,T1,patch burn,2,patch burn graze,season-long stocking,control,unknown
+235,S,2017,T2,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+235,S,2018,T1,patch burn,0,patch burn graze,season-long stocking,control,unknown
+235,S,2018,T2,patch burn,0,patch burn graze,season-long stocking,spray and seed,2.5
+BSH,C,2014,,no burn,unknown,none,none,none,unknown
+BSH,C,2015,,no burn,unknown,invasive control,none,spray only,0.5
+BSH,C,2016,,no burn,unknown,invasive control,none,spray only,1.5
+BSH,C,2017,,no burn,unknown,invasive control,none,spray only,2.5
+BSH,N,2014,,no burn,unknown,none,none,none,unknown
+BSH,N,2015,,no burn,unknown,invasive control,none,control,unknown
+BSH,N,2016,,no burn,unknown,invasive control,none,control,unknown
+BSH,N,2017,,no burn,unknown,invasive control,none,control,unknown
+BSH,S,2014,,no burn,unknown,none,none,none,unknown
+BSH,S,2015,,no burn,unknown,invasive control,none,spray and seed,0.5
+BSH,S,2016,,no burn,unknown,invasive control,none,spray and seed,1.5
+BSH,S,2017,,no burn,unknown,invasive control,none,spray and seed,2.5
+DUN,C,2014,,no burn,unknown,none,none,none,pretreatment
+DUN,C,2015,,no burn,unknown,invasive control,hay,control,0.5
+DUN,C,2016,,no burn,unknown,invasive control,none,control,1.5
+DUN,C,2017,,no burn,unknown,invasive control,none,control,2.5
+DUN,C,2018,,no burn,unknown,invasive control,hay,control,3.5
+DUN,E,2014,,no burn,unknown,none,none,none,pretreatment
+DUN,E,2015,,no burn,unknown,invasive control,hay,spray only,0.5
+DUN,E,2016,,no burn,unknown,invasive control,none,spray only,1.5
+DUN,E,2017,,no burn,unknown,invasive control,none,spray only,2.5
+DUN,E,2018,,no burn,unknown,invasive control,hay,spray only,3.5
+DUN,W,2014,,no burn,unknown,none,none,none,pretreatment
+DUN,W,2015,,no burn,unknown,invasive control,hay,spray and seed,0.5
+DUN,W,2016,,no burn,unknown,invasive control,none,spray and seed,1.5
+DUN,W,2017,,no burn,unknown,invasive control,none,spray and seed,2.5
+DUN,W,2018,,full burn,unknown,invasive control,hay,spray and seed,3.5
+GIL,C,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,C,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,C,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,C,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,C,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+GIL,C,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,C,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,C,2014,,full burn,2,graze and burn,intensive-early stocking,none,pretreatment
+GIL,C,2015,,full burn,0,graze and burn,intensive-early stocking,spray and seed,0.5
+GIL,C,2016,,full burn,1,graze and burn,intensive-early stocking,spray and seed,1.5
+GIL,C,2017,,full burn,2,graze and burn,intensive-early stocking,spray and seed,2.5
+GIL,C,2018,,full burn,3,graze and burn,intensive-early stocking,spray and seed,3.5
+GIL,N,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,N,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,N,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,N,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,N,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+GIL,N,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,N,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,N,2014,,full burn,2,graze and burn,intensive-early stocking,none,pretreatment
+GIL,N,2015,,full burn,0,graze and burn,intensive-early stocking,spray only,0.5
+GIL,N,2016,,full burn,1,graze and burn,intensive-early stocking,spray only,1.5
+GIL,N,2017,,full burn,2,graze and burn,intensive-early stocking,spray only,2.5
+GIL,N,2018,,full burn,3,graze and burn,intensive-early stocking,spray only,3.5
+GIL,S,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,S,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+GIL,S,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,S,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,S,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+GIL,S,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+GIL,S,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+GIL,S,2014,,full burn,2,graze and burn,intensive-early stocking,none,pretreatment
+GIL,S,2015,,full burn,3,graze and burn,intensive-early stocking,control,0.5
+GIL,S,2016,,full burn,0,graze and burn,intensive-early stocking,control,1.5
+GIL,S,2017,,full burn,1,graze and burn,intensive-early stocking,control,2.5
+GIL,S,2018,,full burn,2,graze and burn,intensive-early stocking,control,3.5
+KLN,C,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+KLN,C,2008,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,C,2009,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,C,2010,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+KLN,C,2011,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,C,2012,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,C,2013,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+KLN,C,2014,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+KLN,C,2015,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+KLN,C,2016,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+KLN,C,2017,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+KLN,C,2018,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+KLN,E,2007,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,E,2008,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,E,2009,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+KLN,E,2010,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,E,2011,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,E,2012,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+KLN,E,2013,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,E,2014,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+KLN,E,2015,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+KLN,E,2016,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+KLN,E,2017,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+KLN,E,2018,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+KLN,W,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+KLN,W,2008,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+KLN,W,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,W,2010,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,W,2011,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+KLN,W,2012,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+KLN,W,2013,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+KLN,W,2014,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+KLN,W,2015,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+KLN,W,2016,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+KLN,W,2017,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+KLN,W,2018,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+KLT,E,2007,,full burn,unknown,burn only,none,none,unknown
+KLT,E,2008,,full burn,unknown,burn only,none,none,unknown
+KLT,E,2009,,full burn,0,burn only,none,none,unknown
+KLT,E,2010,,full burn,1,burn only,none,none,unknown
+KLT,E,2011,,full burn,2,burn only,none,none,unknown
+KLT,E,2012,,full burn,0,burn only,none,none,unknown
+KLT,E,2013,,full burn,1,burn only,none,none,unknown
+KLT,E,2014,,full burn,2,burn only,none,none,unknown
+KLT,E,2015,,full burn,3,burn only,none,none,unknown
+KLT,E,2016,,full burn,0,burn only,none,none,unknown
+KLT,E,2017,,full burn,1,burn only,none,none,unknown
+KLT,E,2018,,full burn,3,burn only,none,none,unknown
+KLT,S,2007,,full burn,unknown,burn only,none,none,unknown
+KLT,S,2008,,full burn,unknown,burn only,none,none,unknown
+KLT,S,2009,,full burn,0,burn only,none,none,unknown
+KLT,S,2010,,full burn,1,burn only,none,none,unknown
+KLT,S,2011,,full burn,2,burn only,none,none,unknown
+KLT,S,2012,,full burn,0,burn only,none,none,unknown
+KLT,S,2013,,full burn,1,burn only,none,none,unknown
+KLT,S,2014,,full burn,2,burn only,none,none,unknown
+KLT,S,2015,,full burn,3,burn only,none,none,unknown
+KLT,S,2016,,full burn,0,burn only,none,none,unknown
+KLT,S,2017,,full burn,1,burn only,none,none,unknown
+KLT,S,2018,,full burn,2,burn only,none,none,unknown
+KLT,W,2007,,full burn,unknown,burn only,none,none,unknown
+KLT,W,2008,,full burn,unknown,burn only,none,none,unknown
+KLT,W,2009,,full burn,0,burn only,none,none,unknown
+KLT,W,2010,,full burn,1,burn only,none,none,unknown
+KLT,W,2011,,full burn,2,burn only,none,none,unknown
+KLT,W,2012,,full burn,0,burn only,none,none,unknown
+KLT,W,2013,,full burn,1,burn only,none,none,unknown
+KLT,W,2014,,full burn,2,burn only,none,none,unknown
+KLT,W,2015,,full burn,3,burn only,none,none,unknown
+KLT,W,2016,,full burn,0,burn only,none,none,unknown
+KLT,W,2017,,full burn,1,burn only,none,none,unknown
+KLT,W,2018,,full burn,2,burn only,none,none,unknown
+LTR,C,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,C,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,C,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,C,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,C,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+LTR,C,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,C,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,C,2014,,full burn,2,graze and burn,intensive-early stocking,none,unknown
+LTR,C,2015,,full burn,0,graze and burn,intensive-early stocking,none,0.5
+LTR,C,2016,,full burn,1,graze and burn,intensive-early stocking,spray only,1.5
+LTR,C,2017,,full burn,2,graze and burn,intensive-early stocking,spray only,2.5
+LTR,C,2018,,full burn,0,graze and burn,intensive-early stocking,spray only,3.5
+LTR,E,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,E,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,E,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,E,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,E,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+LTR,E,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,E,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,E,2014,,full burn,2,graze and burn,intensive-early stocking,none,unknown
+LTR,E,2015,,full burn,0,graze and burn,intensive-early stocking,spray and seed,0.5
+LTR,E,2016,,full burn,1,graze and burn,intensive-early stocking,spray and seed,1.5
+LTR,E,2017,,full burn,2,graze and burn,intensive-early stocking,spray and seed,2.5
+LTR,E,2018,,full burn,0,graze and burn,intensive-early stocking,spray and seed,3.5
+LTR,W,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,W,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+LTR,W,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,W,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,W,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+LTR,W,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+LTR,W,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+LTR,W,2014,,full burn,2,graze and burn,intensive-early stocking,none,unknown
+LTR,W,2015,,full burn,0,graze and burn,intensive-early stocking,control,unknown
+LTR,W,2016,,full burn,1,graze and burn,intensive-early stocking,control,unknown
+LTR,W,2017,,full burn,2,graze and burn,intensive-early stocking,control,unknown
+LTR,W,2018,,full burn,0,graze and burn,intensive-early stocking,control,unknown
+PAW,E,2007,,full burn,2,burn only,none,none,unknown
+PAW,S,2007,,full burn,2,burn only,none,none,unknown
+PAW,W,2007,,full burn,2,burn only,none,none,unknown
+PAW,E,2008,,full burn,0,burn only,none,none,unknown
+PAW,S,2008,,full burn,0,burn only,none,none,unknown
+PAW,W,2008,,full burn,0,burn only,none,none,unknown
+PAW,E,2009,,full burn,1,burn only,none,none,unknown
+PAW,S,2009,,full burn,1,burn only,none,none,unknown
+PAW,W,2009,,full burn,1,burn only,none,none,unknown
+PAW,E,2010,,full burn,2,burn only,none,none,unknown
+PAW,S,2010,,full burn,2,burn only,none,none,unknown
+PAW,W,2010,,full burn,2,burn only,none,none,unknown
+PAW,E,2011,,full burn,3,burn only,none,none,unknown
+PAW,S,2011,,full burn,3,burn only,none,none,unknown
+PAW,W,2011,,full burn,3,burn only,none,none,unknown
+PAW,E,2012,,full burn,4,burn only,none,none,unknown
+PAW,S,2012,,full burn,4,burn only,none,none,unknown
+PAW,W,2012,,full burn,4,burn only,none,none,unknown
+PAW,E,2013,,full burn,0,burn only,none,none,unknown
+PAW,S,2013,,full burn,0,burn only,none,none,unknown
+PAW,W,2013,,full burn,0,burn only,none,none,unknown
+PAW,E,2014,,full burn,1,burn only,none,none,unknown
+PAW,S,2014,,full burn,1,burn only,none,none,unknown
+PAW,W,2014,,full burn,1,burn only,none,none,unknown
+PAW,E,2015,,full burn,2,burn only,none,none,unknown
+PAW,S,2015,,full burn,2,burn only,none,none,unknown
+PAW,W,2015,,full burn,2,burn only,none,none,unknown
+PAW,E,2016,,full burn,3,burn only,none,none,unknown
+PAW,S,2016,,full burn,3,burn only,none,none,unknown
+PAW,W,2016,,full burn,3,burn only,none,none,unknown
+PAW,E,2017,,full burn,0.5,burn only,none,none,unknown
+PAW,S,2017,,full burn,0.5,burn only,none,none,unknown
+PAW,W,2017,,full burn,0.5,burn only,none,none,unknown
+PAW,E,2018,,full burn,1.5,burn only,none,none,unknown
+PAW,S,2018,,full burn,1.5,burn only,none,none,0
+PAW,W,2018,,full burn,1.5,burn only,none,none,unknown
+PYN,N,2007,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,N,2008,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,N,2009,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYN,N,2010,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,N,2011,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,N,2012,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYN,N,2013,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,N,2014,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+PYN,N,2015,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+PYN,N,2016,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+PYN,N,2017,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+PYN,N,2018,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+PYN,S,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYN,S,2008,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYN,S,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,S,2010,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,S,2011,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYN,S,2012,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,S,2013,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,S,2014,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+PYN,S,2015,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+PYN,S,2016,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+PYN,S,2017,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+PYN,S,2018,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+PYN,W,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYN,W,2008,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,W,2009,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,W,2010,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYN,W,2011,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYN,W,2012,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYN,W,2013,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYN,W,2014,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+PYN,W,2015,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+PYN,W,2016,,patch burn,2,patch burn graze,intensive-early stocking,none,unknown
+PYN,W,2017,,patch burn,0,patch burn graze,intensive-early stocking,none,unknown
+PYN,W,2018,,patch burn,1,patch burn graze,intensive-early stocking,none,unknown
+PYS,N,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYS,N,2008,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYS,N,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,N,2010,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,N,2011,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,N,2012,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,N,2013,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,N,2014,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,N,2015,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,N,2016,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,N,2017,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,N,2018,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+PYS,S,2008,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2010,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,S,2011,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2012,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,S,2013,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,S,2014,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2015,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,S,2016,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,S,2017,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,S,2018,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,W,2007,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,W,2008,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,W,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,W,2010,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,W,2011,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,W,2012,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,W,2013,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,W,2014,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,W,2015,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYS,W,2016,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+PYS,W,2017,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+PYS,W,2018,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+PYW,C,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,C,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,C,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,C,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,C,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+PYW,C,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,C,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,C,2014,,full burn,2,graze and burn,season-long stocking,none,pretreatment
+PYW,C,2015,,full burn,0,graze and burn,season-long stocking,spray only,0.5
+PYW,C,2016,,full burn,1,graze and burn,season-long stocking,spray only,1.5
+PYW,C,2017,,full burn,2,graze and burn,season-long stocking,spray only,2.5
+PYW,C,2018,,full burn,0,graze and burn,season-long stocking,spray only,3.5
+PYW,N,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,N,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,N,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,N,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,N,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+PYW,N,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,N,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,N,2014,,full burn,2,graze and burn,season-long stocking,none,pretreatment
+PYW,N,2015,,full burn,0,graze and burn,season-long stocking,spray and seed,0.5
+PYW,N,2016,,full burn,1,graze and burn,season-long stocking,spray and seed,1.5
+PYW,N,2017,,full burn,2,graze and burn,season-long stocking,spray and seed,2.5
+PYW,N,2018,,full burn,0,graze and burn,season-long stocking,spray and seed,3.5
+PYW,S,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,S,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+PYW,S,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,S,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,S,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+PYW,S,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+PYW,S,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+PYW,S,2014,,full burn,2,graze and burn,season-long stocking,none,pretreatment
+PYW,S,2015,,full burn,0,graze and burn,season-long stocking,control,0.5
+PYW,S,2016,,full burn,1,graze and burn,season-long stocking,control,1.5
+PYW,S,2017,,full burn,2,graze and burn,season-long stocking,control,2.5
+PYW,S,2018,,full burn,0,graze and burn,season-long stocking,control,3.5
+RC2,C,2014,,no burn,unknown,none,none,none,pretreatment
+RC2,C,2015,,no burn,unknown,invasive control,none,spray only,0.5
+RC2,C,2016,,no burn,unknown,invasive control,none,spray only,1.5
+RC2,C,2017,,no burn,unknown,invasive control,none,spray only,2.5
+RC2,C,2018,,no burn,unknown,invasive control,hay,spray only,3.5
+RC2,N,2014,,no burn,unknown,none,none,none,pretreatment
+RC2,N,2015,,no burn,unknown,invasive control,none,spray and seed,0.5
+RC2,N,2016,,no burn,unknown,invasive control,none,spray and seed,1.5
+RC2,N,2017,,no burn,unknown,invasive control,none,spray and seed,2.5
+RC2,N,2018,,no burn,unknown,invasive control,hay,spray and seed,3.5
+RC2,S,2014,,no burn,unknown,none,none,none,pretreatment
+RC2,S,2015,,no burn,unknown,invasive control,none,control,0.5
+RC2,S,2016,,no burn,unknown,invasive control,none,control,1.5
+RC2,S,2017,,no burn,unknown,invasive control,none,control,2.5
+RC2,S,2018,,no burn,unknown,invasive control,hay,control,3.5
+RCH2007,C,2007,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,C,2008,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,C,2009,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,C,2010,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2007,C,2011,,full burn,2,burn only,season-long stocking,none,unknown
+RCH2007,C,2012,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,C,2013,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2007,E,2007,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,E,2008,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,E,2009,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,E,2010,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2007,E,2011,,full burn,2,burn only,season-long stocking,none,unknown
+RCH2007,E,2012,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,E,2013,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2007,W,2007,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,W,2008,,full burn,unknown,burn only,season-long stocking,none,unknown
+RCH2007,W,2009,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,W,2010,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2007,W,2011,,full burn,2,burn only,season-long stocking,none,unknown
+RCH2007,W,2012,,full burn,0,burn only,season-long stocking,none,unknown
+RCH2007,W,2013,,full burn,1,burn only,season-long stocking,none,unknown
+RCH2014,C,2014,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RCH2014,C,2015,,patch burn,0,patch burn graze,season-long stocking,control,unknown
+RCH2014,C,2016,,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+RCH2014,C,2017,,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+RCH2014,C,2018,,patch burn,0,patch burn graze,season-long stocking,spray and seed,2.5
+RCH2014,E,2014,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RCH2014,E,2015,,patch burn,3,patch burn graze,season-long stocking,control,unknown
+RCH2014,E,2016,,patch burn,0,patch burn graze,season-long stocking,control,unknown
+RCH2014,E,2017,,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+RCH2014,E,2018,,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+RCH2014,W,2014,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RCH2014,W,2015,,patch burn,1,patch burn graze,season-long stocking,spray and seed,0.5
+RCH2014,W,2016,,patch burn,2,patch burn graze,season-long stocking,spray and seed,1.5
+RCH2014,W,2017,,patch burn,0,patch burn graze,season-long stocking,spray and seed,2.5
+RCH2014,W,2018,,patch burn,1,patch burn graze,season-long stocking,spray and seed,3.5
+RIN,E,2007,,full burn,unknown,burn only,none,none,unknown
+RIN,E,2008,,full burn,unknown,burn only,none,none,unknown
+RIN,E,2009,,full burn,0,burn only,none,none,unknown
+RIN,E,2010,,full burn,1,burn only,none,none,unknown
+RIN,E,2011,,full burn,2,burn only,none,none,unknown
+RIN,E,2012,,full burn,0,burn only,none,none,unknown
+RIN,E,2013,,full burn,1,burn only,none,none,unknown
+RIN,E,2014,,full burn,2,burn only,none,none,unknown
+RIN,E,2015,,full burn,3,burn only,none,none,unknown
+RIN,E,2016,,full burn,4,burn only,none,none,unknown
+RIN,E,2017,,full burn,0,burn only,none,none,unknown
+RIN,E,2018,,full burn,1,burn only,none,none,unknown
+RIN,S,2007,,full burn,unknown,burn only,none,none,unknown
+RIN,S,2008,,full burn,unknown,burn only,none,none,unknown
+RIN,S,2009,,full burn,0,burn only,none,none,unknown
+RIN,S,2010,,full burn,1,burn only,none,none,unknown
+RIN,S,2011,,full burn,2,burn only,none,none,unknown
+RIN,S,2012,,full burn,0,burn only,none,none,unknown
+RIN,S,2013,,full burn,1,burn only,none,none,unknown
+RIN,S,2014,,full burn,2,burn only,none,none,unknown
+RIN,S,2015,,full burn,3,burn only,none,none,unknown
+RIN,S,2016,,full burn,4,burn only,none,none,unknown
+RIN,S,2017,,full burn,0,burn only,none,none,unknown
+RIN,S,2018,,full burn,1,burn only,none,none,unknown
+RIN,W,2007,,full burn,unknown,burn only,none,none,unknown
+RIN,W,2008,,full burn,unknown,burn only,none,none,unknown
+RIN,W,2009,,full burn,0,burn only,none,none,unknown
+RIN,W,2010,,full burn,1,burn only,none,none,unknown
+RIN,W,2011,,full burn,2,burn only,none,none,unknown
+RIN,W,2012,,full burn,0,burn only,none,none,unknown
+RIN,W,2013,,full burn,1,burn only,none,none,unknown
+RIN,W,2014,,full burn,2,burn only,none,none,unknown
+RIN,W,2015,,full burn,3,burn only,none,none,unknown
+RIN,W,2016,,full burn,4,burn only,none,none,unknown
+RIN,W,2017,,full burn,0,burn only,none,none,unknown
+RIN,W,2018,,full burn,1,burn only,none,none,unknown
+RIS,C,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+RIS,C,2008,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+RIS,C,2009,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,C,2010,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,C,2011,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,C,2012,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,C,2013,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,C,2014,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,C,2015,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,C,2016,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,C,2017,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,C,2018,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,N,2007,,patch burn,unknown,patch burn graze,season-long stocking,none,unknown
+RIS,N,2008,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,N,2009,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,N,2010,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,N,2011,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,N,2012,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,N,2013,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,N,2014,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,N,2015,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,N,2016,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,N,2017,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,N,2018,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,S,2007,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,S,2008,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,S,2009,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,S,2010,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,S,2011,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,S,2012,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,S,2013,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,S,2014,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,S,2015,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RIS,S,2016,,patch burn,0,patch burn graze,season-long stocking,none,unknown
+RIS,S,2017,,patch burn,1,patch burn graze,season-long stocking,none,unknown
+RIS,S,2018,,patch burn,2,patch burn graze,season-long stocking,none,unknown
+RNR,C,2014,,full burn,3,none,none,none,unknown
+RNR,C,2015,,full burn,4,none,none,none,unknown
+RNR,C,2016,,full burn,0,none,none,none,unknown
+RNR,C,2017,,full burn,1,none,none,none,unknown
+RNR,E,2014,,full burn,3,none,none,none,unknown
+RNR,E,2015,,full burn,4,none,none,none,unknown
+RNR,E,2016,,full burn,0,none,none,none,unknown
+RNR,E,2017,,full burn,1,none,none,none,unknown
+RNR,W,2014,,full burn,0,none,none,none,0.5
+RNR,W,2015,,full burn,1,none,none,none,1.5
+RNR,W,2016,,full burn,2,none,none,none,0.5
+RNR,W,2017,,full burn,3,none,none,none,1.5
+STE,N,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,N,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,N,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,N,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,N,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,N,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,N,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,N,2014,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,N,2015,,full burn,3,graze and burn,season-long stocking,none,pretreatment
+STE,N,2016,T1,full burn,0,graze and burn,season-long stocking,spray and seed,0.5
+STE,N,2016,T2,full burn,0,graze and burn,season-long stocking,control,0.5
+STE,N,2017,T1,full burn,1,graze and burn,season-long stocking,spray and seed,1.5
+STE,N,2017,T2,full burn,1,graze and burn,season-long stocking,control,1.5
+STE,N,2018,T1,full burn,2,graze and burn,season-long stocking,spray and seed,2.5
+STE,N,2018,T2,full burn,2,graze and burn,season-long stocking,control,2.5
+STE,S,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,S,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,S,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,S,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,S,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,S,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,S,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,S,2014,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,S,2015,,full burn,3,graze and burn,season-long stocking,none,pretreatment
+STE,S,2016,,full burn,0,graze and burn,season-long stocking,spray only,0.5
+STE,S,2017,,full burn,1,graze and burn,season-long stocking,spray only,1.5
+STE,S,2018,,full burn,2,graze and burn,season-long stocking,spray only,2.5
+STE,W,2007,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,W,2008,,full burn,unknown,graze and burn,season-long stocking,none,unknown
+STE,W,2009,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,W,2010,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,W,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,W,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
+STE,W,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
+STE,W,2014,,full burn,2,graze and burn,season-long stocking,none,unknown
+STE,W,2015,,full burn,3,graze and burn,season-long stocking,control,pretreatment
+STE,W,2016,,full burn,0,graze and burn,season-long stocking,control,0.5
+STE,W,2017,,full burn,1,graze and burn,season-long stocking,control,1.5
+STE,W,2018,,full burn,2,graze and burn,season-long stocking,control,2.5
+RIE,N,2015,,patch burn,1,none,none,none,unknown
+RIE,N,2016,,patch burn,2,none,none,none,0.5
+RIE,E,2015,,patch burn,5,none,none,none,0.5
+RIE,E,2016,,patch burn,0,none,none,none,0.5
+RIE,W,2015,,patch burn,5,none,none,none,0.5
+RIE,W,2016,,patch burn,0,none,none,none,0.5
