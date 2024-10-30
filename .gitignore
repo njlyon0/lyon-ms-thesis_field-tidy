@@ -73,3 +73,7 @@ vignettes/*.pdf
 # Other file types
 *.pdf
 *.zip
+
+# Folders
+data/
+junk_*/
