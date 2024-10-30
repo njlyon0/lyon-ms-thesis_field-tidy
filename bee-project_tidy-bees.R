@@ -62,6 +62,9 @@ dplyr::glimpse(bz.17_v1)
 
 # Summarize within bee species
 bz.17_v2 <- bz.17_v1 %>% 
+  # Collapse Lasioglossum bees into one category
+  dplyr::mutate(species = ifelse(test = genus == "Lasioglossum",
+                                 yes = "Lasioglossum.sp", no = species)) %>% 
   # Count total bees / species within bowls
   dplyr::group_by(capture.year, capture.date, pasture, patch, height_cm,
                   bowls.recovered_percent, family, genus, species) %>% 
