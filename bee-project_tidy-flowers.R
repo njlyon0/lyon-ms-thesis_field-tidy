@@ -17,6 +17,9 @@ librarian::shelf(tidyverse)
 # Clear environment & collect garbage
 rm(list = ls()); gc()
 
+# Create needed folder(s)
+dir.create(path = file.path("data", "tidy-data"), showWarnings = F)
+
 ##  ------------------------------------------  ##      
             # 2017 Standardization ----
 ##  ------------------------------------------  ##      
