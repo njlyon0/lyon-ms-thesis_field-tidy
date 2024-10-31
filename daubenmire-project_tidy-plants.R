@@ -22,7 +22,7 @@ rm(list = ls()); gc()
 ##  ------------------------------------------  ##      
 
 # Read in data
-daub_v1 <- read.csv(file = file.path("data", "raw-data", "daubenmire-project_raw-data_2007-18.csv"))
+daub_v1 <- read.csv(file = file.path("data", "raw-data", "daubenmire-project_raw-data.csv"))
 
 # Check structure
 dplyr::glimpse(daub_v1)
