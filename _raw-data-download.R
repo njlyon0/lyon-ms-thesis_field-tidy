@@ -22,7 +22,7 @@ dir.create(path = file.path("data"), showWarnings = F)
 dir.create(path = file.path("data", "raw-data"), showWarnings = F)
 
 # Identify relevant Drive folder
-drive_url <- googledrive::as_id("https://drive.google.com/drive/u/0/folders/1PBA3pYOvpK1CSWS0FUxzBVooU3i1ZeJS")
+raw_url <- googledrive::as_id("https://drive.google.com/drive/u/0/folders/1bo5Hye4FjIu-yOiIjr7lp8B0z4v-b1cK")
 
 ##  ------------------------------------------  ##      
                 # Download Data ----
@@ -32,12 +32,10 @@ drive_url <- googledrive::as_id("https://drive.google.com/drive/u/0/folders/1PBA
 already_done <- dir(file.path("data", "raw-data"))
 
 # List files in Drive
-all_data <- googledrive::drive_ls(path = drive_url)
+all_data <- googledrive::drive_ls(path = raw_url)
 
 # Identify only the needed files
 needed_data <- all_data  %>% 
-  ## Remove unwanted files/folders
-  dplyr::filter(!name %in% c("_data-dictionaries")) %>% 
   ## And remove already downloaded files
   dplyr::filter(!name %in% already_done)
 
