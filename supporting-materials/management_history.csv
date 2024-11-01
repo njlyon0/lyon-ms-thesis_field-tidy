@@ -161,7 +161,7 @@ LTR,C,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
 LTR,C,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
 LTR,C,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
 LTR,C,2014,,full burn,2,graze and burn,intensive-early stocking,none,unknown
-LTR,C,2015,,full burn,0,graze and burn,intensive-early stocking,none,0.5
+LTR,C,2015,,full burn,0,graze and burn,intensive-early stocking,spray only,0.5
 LTR,C,2016,,full burn,1,graze and burn,intensive-early stocking,spray only,1.5
 LTR,C,2017,,full burn,2,graze and burn,intensive-early stocking,spray only,2.5
 LTR,C,2018,,full burn,0,graze and burn,intensive-early stocking,spray only,3.5
@@ -476,7 +476,7 @@ STE,N,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
 STE,N,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
 STE,N,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
 STE,N,2014,,full burn,2,graze and burn,season-long stocking,none,unknown
-STE,N,2015,,full burn,3,graze and burn,season-long stocking,none,pretreatment
+STE,N,2015,,full burn,3,graze and burn,season-long stocking,control,pretreatment
 STE,N,2016,T1,full burn,0,graze and burn,season-long stocking,spray and seed,0.5
 STE,N,2016,T2,full burn,0,graze and burn,season-long stocking,control,0.5
 STE,N,2017,T1,full burn,1,graze and burn,season-long stocking,spray and seed,1.5
@@ -491,7 +491,7 @@ STE,S,2011,,full burn,2,graze and burn,season-long stocking,none,unknown
 STE,S,2012,,full burn,0,graze and burn,season-long stocking,none,unknown
 STE,S,2013,,full burn,1,graze and burn,season-long stocking,none,unknown
 STE,S,2014,,full burn,2,graze and burn,season-long stocking,none,unknown
-STE,S,2015,,full burn,3,graze and burn,season-long stocking,none,pretreatment
+STE,S,2015,,full burn,3,graze and burn,season-long stocking,spray only,pretreatment
 STE,S,2016,,full burn,0,graze and burn,season-long stocking,spray only,0.5
 STE,S,2017,,full burn,1,graze and burn,season-long stocking,spray only,1.5
 STE,S,2018,,full burn,2,graze and burn,season-long stocking,spray only,2.5
