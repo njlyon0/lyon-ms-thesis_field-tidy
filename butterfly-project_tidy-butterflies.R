@@ -217,20 +217,49 @@ supportR::diff_check(old = unique(bf_v4$butterfly.common),
                      new = unique(spp.faq_v1$butterfly.common))
 
 ##  ------------------------------------------  ##      
-# Integrate Indices
+            # Integrate Indices ----
 ##  ------------------------------------------  ##      
 
-# Integrate indices
+# Handle site identification issues in the data
 bf_v5 <- bf_v4 %>% 
-  dplyr::left_join(y = mgmt.patch, by = c("year", "pasture", "patch")) %>% 
-  dplyr::left_join(y = mgmt.trans, by = c("year", "pasture", "patch", "transect")) %>% 
-  dplyr::left_join(y = spp.faq_v1, by = "butterfly.common")
+  # Fill in missing sites where patch is known
+  dplyr::mutate(pasture = ifelse(test = is.na(pasture),
+                                 yes = stringr::str_sub(string = patch,
+                                                        start = 1, end = 3),
+                                 no = pasture)) %>% 
+  # Do some repair for the "RCH" site
+  ## Site was re-drawn between 2013 & 14 seasons
+  dplyr::mutate(
+    transect = dplyr::case_when(
+      pasture == "RCH" & year <= 2013 ~ gsub("RCH", "RCH2007", transect), 
+      pasture == "RCH" & year >= 2014 ~ gsub("RCH", "RCH2014", transect),
+      transect == "RIN-C2" & year == 2015 ~ "RIN-S2",
+      T ~ transect),
+    patch = dplyr::case_when(
+      pasture == "RCH" & year <= 2013 ~ gsub("RCH", "RCH2007", patch), 
+      pasture == "RCH" & year >= 2014 ~ gsub("RCH", "RCH2014", patch),
+      patch == "RIN-C" & year == 2015 ~ "RIN-S",
+      T ~ patch),
+    pasture = dplyr::case_when(
+      pasture == "RCH" & year <= 2013 ~ "RCH2007", 
+      pasture == "RCH" & year >= 2014 ~ "RCH2014",
+      T ~ pasture) ) %>% 
+  dplyr::mutate(
+    patch = gsub(pattern = "07-N", replacement = "07-E", x = patch),
+    patch = gsub(pattern = "07-S", replacement = "07-C", x = patch),
+    patch = gsub(pattern = "14-Y", replacement = "14-W", x = patch),
+    transect = gsub(pattern = "14-Y", replacement = "14-W", x = transect)
+  )
 
 # Check structure
 dplyr::glimpse(bf_v5)
 
-# Do macro-scale resolution of duplicated columns
+# Actually integrate indices
 bf_v6 <- bf_v5 %>%
+  dplyr::left_join(y = mgmt.patch, by = c("year", "pasture", "patch")) %>%
+  dplyr::left_join(y = mgmt.trans, by = c("year", "pasture", "patch", "transect")) %>%
+  dplyr::left_join(y = spp.faq_v1, by = "butterfly.common") %>% 
+  # Coalesce duplicate columns
   dplyr::mutate(
     fire.treatment = dplyr::coalesce(fire.treatment.x, fire.treatment.y),
     years.since.fire = dplyr::coalesce(years.since.fire.x, years.since.fire.y),
@@ -239,6 +268,7 @@ bf_v6 <- bf_v5 %>%
     herbicide.treatment = dplyr::coalesce(herbicide.treatment.x, herbicide.treatment.y),
     years.since.herbicide = dplyr::coalesce(years.since.herbicide.x, years.since.herbicide.y)
   ) %>% 
+  # Drop unwanted columns / re-order remaining ones
   dplyr::select(-dplyr::ends_with(c(".x", ".y"))) %>% 
   dplyr::relocate(fire.treatment:years.since.herbicide, .after = transect) %>% 
   dplyr::relocate(wind.speed_kph:cloud.cover_perc, .after = day) %>% 
@@ -248,8 +278,25 @@ bf_v6 <- bf_v5 %>%
 # Check structure
 dplyr::glimpse(bf_v6)
 
+##  ------------------------------------------  ##      
+                  # Finalize ----
+##  ------------------------------------------  ##      
+
+# Remove unwanted / 'bad' data
+bf_v7 <- bf_v6 %>% 
+  dplyr::filter(stringr::str_detect(string = patch, pattern = "PAW PBG") != TRUE) %>% 
+  dplyr::filter(stringr::str_detect(string = patch, pattern = "SS\\.") != TRUE) %>% 
+  dplyr::filter(patch != "RCH2014-S") %>% 
+  dplyr::filter(!pasture %in% c("FRN", "JER"))
+
+# Count lost rows
+nrow(bf_v6) - nrow(bf_v7)
+
+# Re-check structure
+dplyr::glimpse(bf_v7)
+
 # Export tidy data
-write.csv(x = bf_v6, row.names = F, na = '',
+write.csv(x = bf_v7, row.names = F, na = '',
           file = file.path("data", "tidy-data", "butterfly-project_tidy-butterflies.csv"))
 
 # End ----
