@@ -70,7 +70,7 @@ site_v2 <- supportR::safe_rename(data = site_v1, bad_names = names(site_v1),
 dplyr::glimpse(site_v2)
 
 ##  ------------------------------------------  ##      
-# Integrate Site-Level Info ----
+        # Integrate Site-Level Info ----
 ##  ------------------------------------------  ##      
 
 # Read in data
@@ -133,21 +133,124 @@ bf_v2 <- bf_v1 %>%
   # Make year more explicit
   dplyr::mutate(year = year + 2000)
 
-# Check structure
+# Re-check structure
 dplyr::glimpse(bf_v2)
 
+# Drop unknown butterflies & placeholder rows
+bf_v3 <- bf_v2 %>% 
+  dplyr::filter(stringr::str_detect(string = butterfly.common, pattern = "unknown") != T) %>% 
+  dplyr::filter(butterfly.common != "accidental row") %>% 
+  dplyr::filter(butterfly.common != "none")
+  
+# Check remaining 'species'
+sort(unique(bf_v3$butterfly.common))
 
+# Re-check structure
+dplyr::glimpse(bf_v3)
 
+# Summarize within species
+bf_v4 <- bf_v3 %>% 
+  dplyr::group_by(year, pasture, patch, transect, month, day, butterfly.common) %>%
+  dplyr::summarize(wind.speed_kph = mean(wind.speed_kph, na.rm = T),
+                   temp_deg.celsius = mean(temp_deg.celsius, na.rm = T),
+                   cloud.cover_perc = mean(cloud.cover_perc, na.rm = T),
+                   butterfly.count = sum(number, na.rm = T),
+                   .groups = "keep") %>% 
+  dplyr::ungroup()
 
+# Re-check structure
+dplyr::glimpse(bf_v4)
 
+##  ------------------------------------------  ##      
+              # Prepare Indices ----
+##  ------------------------------------------  ##      
 
+# Read in management information index
+mgmt_v0 <- read.csv(file = file.path("supporting-materials", "management_history.csv"))
 
+# Check structure
+dplyr::glimpse(mgmt_v0)
 
+# Make this more interoperable with the other data
+mgmt_v1 <- mgmt_v0 %>% 
+  dplyr::mutate(patch = paste0(pasture, "-", patch)) %>% 
+  dplyr::mutate(transect = ifelse(test = nchar(transect) == 0,
+                                  yes = NA, no = transect)) %>% 
+  dplyr::mutate(transect = ifelse(test = is.na(transect) != T,
+                                  yes = paste0(patch, gsub(pattern = "T", replacement = "",
+                                                           x = transect)),
+                                  no = transect)) %>% 
+  dplyr::distinct() %>% 
+  supportR::safe_rename(data = ., bad_names = names(.), 
+                        good_names = gsub(pattern = "_", replacement = ".",
+                                          x = names(.)))
 
+# Re-check structure
+dplyr::glimpse(mgmt_v1)
+
+# Separate sites where patch-level is fine from those where more detail is needed
+mgmt.patch <- mgmt_v1 %>%
+  dplyr::filter(is.na(transect) == T) %>% 
+  dplyr::select(-transect)
+mgmt.trans <- mgmt_v1 %>% 
+  dplyr::filter(is.na(transect) != T)
+
+# Read in species information index
+spp.faq_v0 <- read.csv(file = file.path("supporting-materials", "spp-info_butterflies.csv"))
+
+# Check structure
+dplyr::glimpse(spp.faq_v0)
+
+# Pare down columns
+spp.faq_v1 <- spp.faq_v0 %>% 
+  dplyr::mutate(butterfly.common = tolower(butterfly_common),
+                butterfly.family = tolower(family)) %>% 
+  dplyr::select(butterfly.common, butterfly.family) %>%
+  dplyr::distinct()
+  
+# Re-check structure
+dplyr::glimpse(spp.faq_v1)
+
+# Check for--and resolve--mismatch in butterfly common names
+## Index contains entries not necessarily in data
+supportR::diff_check(old = unique(bf_v4$butterfly.common),
+                     new = unique(spp.faq_v1$butterfly.common))
+
+##  ------------------------------------------  ##      
+# Integrate Indices
+##  ------------------------------------------  ##      
+
+# Integrate indices
+bf_v5 <- bf_v4 %>% 
+  dplyr::left_join(y = mgmt.patch, by = c("year", "pasture", "patch")) %>% 
+  dplyr::left_join(y = mgmt.trans, by = c("year", "pasture", "patch", "transect")) %>% 
+  dplyr::left_join(y = spp.faq_v1, by = "butterfly.common")
+
+# Check structure
+dplyr::glimpse(bf_v5)
+
+# Do macro-scale resolution of duplicated columns
+bf_v6 <- bf_v5 %>%
+  dplyr::mutate(
+    fire.treatment = dplyr::coalesce(fire.treatment.x, fire.treatment.y),
+    years.since.fire = dplyr::coalesce(years.since.fire.x, years.since.fire.y),
+    adaptive.mgmt = dplyr::coalesce(adaptive.mgmt.x, adaptive.mgmt.y),
+    stocking.treatment = dplyr::coalesce(stocking.treatment.x, stocking.treatment.y),
+    herbicide.treatment = dplyr::coalesce(herbicide.treatment.x, herbicide.treatment.y),
+    years.since.herbicide = dplyr::coalesce(years.since.herbicide.x, years.since.herbicide.y)
+  ) %>% 
+  dplyr::select(-dplyr::ends_with(c(".x", ".y"))) %>% 
+  dplyr::relocate(fire.treatment:years.since.herbicide, .after = transect) %>% 
+  dplyr::relocate(wind.speed_kph:cloud.cover_perc, .after = day) %>% 
+  dplyr::relocate(butterfly.family, butterfly.common, butterfly.count, 
+                  .after = cloud.cover_perc)
+
+# Check structure
+dplyr::glimpse(bf_v6)
 
 # Export tidy data
-# write.csv(x = bf_vxx, row.names = F, na = '',
-#           file = file.path("data", "tidy-data", "butterfly-project_tidy-butterflies.csv"))
+write.csv(x = bf_v6, row.names = F, na = '',
+          file = file.path("data", "tidy-data", "butterfly-project_tidy-butterflies.csv"))
 
 # End ----
 
