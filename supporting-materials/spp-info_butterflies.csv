@@ -1,75 +1,74 @@
-﻿butterfly_common,genus,species,butterfly_scientific,family,subfamily,spp_greatest_conservation_need,l48_status,plant_host_family
-Sleepy Orange,Abaeis,nicippe,Abaeis nicippe,Pieridae,Coliadinae,,,
-Goatweed Leafwing,Anaea,andria,Anaea andria,Nymphalidae,Charaxinae,,,
-Delaware Skipper,Anatrytone,logan,Anatrytone logan,Hesperiidae,Hesperiinae,O,N,Poaceae
-Least Skipper,Ancyloxypha,numitor,Ancyloxypha numitor,Hesperiidae,Hesperiinae,O,N,Poaceae
-Hackberry Emperor,Asterocampa,celtis,Asterocampa celtis,Nymphalidae,Apaturinae,O,N,Cannabaceae
-Sachem,Atalopedes,campestris,Atalopedes campestris,Hesperiidae,Hesperiinae,,,
-Meadow Fritillary,Boloria,bellona,Boloria bellona,Nymphalidae,Heliconiinae,O,N,Violaceae
-Juniper Hairstreak,Callophrys,gryneus,Callophrys gryneus,Lycaenidae,Theclinae,,,
-Spring Azure,Celastrina,ladon,Celastrina ladon,Lycaenidae,Polyommatinae,O,N,Adoxaceae/Rosaceae/Cornaceae/Rhamnaceae
-Summer Azure,Celastrina,neglecta,Celastrina neglecta,Lycaenidae,Polyommatinae,O,N,Adoxaceae/Rosaceae/Cornaceae/Rhamnaceae
-Common Wood Nymph,Cercyonis,pegala,Cercyonis pegala,Nymphalidae,Satyrinae,O,N,Poaceae
-Gorgone Checkerspot,Chlosyne,gorgone,Chlosyne gorgone,Nymphalidae,Nymphalinae,X,N,Asteraceae
-Silvery Checkerspot,Chlosyne,nycteis,Chlosyne nycteis,Nymphalidae,Nymphalinae,O,N,Asteraceae
-Orange Sulphur,Colias,eurytheme,Colias eurytheme,Pieridae,Coliadinae,O,N,Fabaceae
-Clouded Sulphur,Colias,philodice,Colias philodice,Pieridae,Coliadinae,O,N,Fabaceae
-Eastern Tailed Blue,Cupido,comyntas,Cupido comyntas,Lycaenidae,Polyommatinae,O,N,Fabaceae
-Monarch,Danaus,plexippus,Danaus plexippus,Nymphalidae,Danainae,X,N,Apocynaceae
-Northern Pearly Eye,Enodia,anthedon,Enodia anthedon,Nymphalidae,Satyrinae,,,
-Silver-Spotted Skipper,Epargyreus,clarus,Epargyreus clarus,Hesperiidae,Pyrginae,O,N,Fabaceae
-Indigo Duskywing,Erynnis,baptisiae,Erynnis baptisiae,Hesperiidae,Pyrginae,X,N,Fabaceae
-Horace's Duskywing,Erynnis,horatius,Erynnis horatius,Hesperiidae,Pyrginae,,,
-Unknown Duskywing,Erynnis,sp.,Erynnis sp.,Hesperiidae,Pyrginae,–,–,–
-Two-Spotted Skipper,Euphyes,bimacula,Euphyes bimacula,Hesperiidae,Hesperiinae,X,N,Cyperaceae
-Dun Skipper,Euphyes,vestris,Euphyes vestris,Hesperiidae,Hesperiinae,O,N,Unk
-Variegated Fritillary,Euptoeita,claudia,Euptoeita claudia,Nymphalidae,Heliconiinae,O,N,Violaceae
-Zebra Swallowtail,Eurytides,marcellus,Eurytides marcellus,Papilionidae,Papilioninae,X,N,Annonaceae
-Fiery Skipper,Hylephila,phyleus,Hylephila phyleus,Hesperiidae,Hesperiinae,O,N,
-Common Buckeye,Junonia,coenia,Junonia coenia,Nymphalidae,Nymphalinae,O,N,Plantaginaceae/Acanthaceae/Scrophulariaceae
-Viceroy,Limenitis,archippus,Limenitis archippus,Nymphalidae,Limenitidinae,O,N,Salicaceae
-Red-Spotted Purple,Limenitis,arthemis,Limenitis arthemis,Nymphalidae,Limenitidinae,O,N,Fagaceae/Salicaceae/Rosaceae
-Melissa Blue,Lycaedies,melissa,Lycaedies melissa,Lycaenidae,Polyommatinae,X,N,
-Gray Copper,Lycaena,dione,Lycaena dione,Lycaenidae,Lycaeninae,O,N,Polygonaceae
-Bronze Copper,Lycaena,hyllus,Lycaena hyllus,Lycaenidae,Lycaeninae,O,N,Polygonaceae
-Little Wood Satyr,Megisto,cymela,Megisto cymela,Nymphalidae,Satyrinae,O,N,Poaceae
-Dainty Sulphur,Nathalis,iole,Nathalis iole,Pieridae,Coliadinae,O,N,Asteraceae
-none,,,none,–,–,–,–,–
-Mourning Cloak,Nymphalis,antiopa,Nymphalis antiopa,Nymphalidae,Nymphalinae,O,N,Salicaceae/Ulmaceae/Cannabaceae
-Giant Swallowtail,Papilio,cresphontes,Papilio cresphontes,Papilionidae,Papilioninae,O,N,Oleaceae
-Eastern Tiger Swallowtail,Papilio,glaucus,Papilio glaucus,Papilionidae,Papilioninae,O,N,Oleaceae/Rosaceae
-Black Swallowtail,Papilio,polyxenes,Papilio polyxenes,Papilionidae,Papilioninae,O,N,Apiaceae
-Cloudless Sulphur,Phoebis,sennae,Phoebis sennae,Pieridae,Coliadinae,,,
-Common Sootywing,Pholisora,catullus,Pholisora catullus,Hesperiidae,Pyrginae,O,N,
-Pearl Crescent,Phyciodes,tharos,Phyciodes tharos,Nymphalidae,Nymphalinae,O,N,Asteraceae
-Cabbage White,Pieris,rapae,Pieris rapae,Pieridae,Pierinae,O,E,Brassicaceae
-Hobomok Skipper,Poanes,hobomok,Poanes hobomok,Hesperiidae,Hesperiinae,,,
-Crossline Skipper,Polites,origenes,Polites origenes,Hesperiidae,Hesperiinae,,,
-Peck's Skipper,Polites,peckius,Polites peckius,Hesperiidae,Hesperiinae,O,N,Poaceae
-Tawny-Edged Skipper,Polites,themistocles,Polites themistocles,Hesperiidae,Hesperiinae,O,N,Poaceae
-Eastern Comma,Polygonia,comma,Polygonia comma,Nymphalidae,Nymphalinae,O,N,Ulmaceae/Cannabaceae/Urticaceae
-Question Mark,Polygonia,interrogationis,Polygonia interrogationis,Nymphalidae,Nymphalinae,O,N,Ulmaceae/Cannabaceae/Urticaceae
-Unknown Comma,Polygonia,sp.,Polygonia sp.,Nymphalidae,Nymphalinae,–,–,–
-Checkered White,Pontia,protodice,Pontia protodice,Pieridae,Pierinae,,,
-Common Checkered Skipper,Pyrgus,communis,Pyrgus communis,Hesperiidae,Pyrginae,,,
-Little Yellow,Pyrisitia,lisa,Pyrisitia lisa,Pieridae,Coliadinae,O,N,Fabaceae
-Edward's Hairstreak,Satyrium,edwardsii,Satyrium edwardsii,Lycaenidae,Theclinae,X,N,Fagaceae
-Coral Hairstreak,Satyrium,titus,Satyrium titus,Lycaenidae,Theclinae,O,N,Rosaceae
-Great Spangled Fritillary,Speyeria,cybele,Speyeria cybele,Nymphalidae,Heliconiinae,O,N,Violaceae
-Regal Fritillary,Speyeria,idalia,Speyeria idalia,Nymphalidae,Heliconiinae,X,N,Violaceae
-Gray Hairstreak,Strymon,melinus,Strymon melinus,Lycaenidae,Theclinae,,,
-Southern Cloudywing,Thorybes,bathyllus,Thorybes bathyllus,Hesperiidae,Pyrginae,O,N,
-Unknown Cloudywing,Thorybes,sp.,Thorybes sp.,Hesperiidae,Pyrginae,–,–,–
-European Skipper,Thymelicus,lineola,Thymelicus lineola,Hesperiidae,Hesperiinae,O,E,Poaceae
-Unknown Skipper,,,Unknown Hesperiid,Hesperiidae,–,–,–,–
-Unknown Butterfly,,,Unknown Lepidoptera,–,–,–,–,–
-Unknown Gossamer-Wing,,,Unknown Lycaenid,Lycaenidae,–,–,–,–
-Unknown Brush-Foot,,,Unknown Nymphalid,Nymphalidae,–,–,–,–
-Unknown Swallowtail,,,Unknown Papilionid,Papilionidae,–,–,–,–
-Unknown Pierid,,,Unknown Pierid,Pieridae,–,–,–,–
-Red Admiral,Vanessa,atalanta,Vanessa atalanta,Nymphalidae,Nymphalinae,O,N,Urticaceae
-Painted Lady,Vanessa,cardui,Vanessa cardui,Nymphalidae,Nymphalinae,O,N,Asteraceae
-Unknown Lady,Vanessa,sp.,Vanessa sp.,Nymphalidae,Nymphalinae,–,–,–
-American Lady,Vanessa,virginiensis,Vanessa virginiensis,Nymphalidae,Nymphalinae,O,N,Asteraceae
-Northern Broken-Dash,Wallengrenia,egeremet,Wallengrenia egeremet,Hesperiidae,Hesperiinae,,,
-Southern Dogface,Zerene,cesonia,Zerene cesonia,Pieridae,Coliadinae,,,
+﻿butterfly_common,genus,species,butterfly_scientific,family,subfamily,spp_greatest_cyesnservatiyesn_need,l48_status,plant_host_family
+Sleepy Orange,Abaeis,nicippe,Abaeis nicippe,Pieridae,Coliadinae,,native,
+Goatweed Leafwing,Anaea,andria,Anaea andria,Nymphalidae,Charaxinae,,native,
+Delaware Skipper,Anatrytone,logan,Anatrytone logan,Hesperiidae,Hesperiinae,yes,native,Poaceae
+Least Skipper,Ancyloxypha,numitor,Ancyloxypha numitor,Hesperiidae,Hesperiinae,yes,native,Poaceae
+Hackberry Emperor,Asterocampa,celtis,Asterocampa celtis,Nymphalidae,Apaturinae,yes,native,Cannabaceae
+Sachem,Atalopedes,campestris,Atalopedes campestris,Hesperiidae,Hesperiinae,,native,
+Meadow Fritillary,Boloria,bellona,Boloria bellona,Nymphalidae,Heliconiinae,yes,native,Violaceae
+Juniper Hairstreak,Callophrys,gryneus,Callophrys gryneus,Lycaenidae,Theclinae,,native,
+Spring Azure,Celastrina,ladon,Celastrina ladon,Lycaenidae,Polyommatinae,yes,native,Adoxaceae/Rosaceae/Cornaceae/Rhamnaceae
+Summer Azure,Celastrina,neglecta,Celastrina neglecta,Lycaenidae,Polyommatinae,yes,native,Adoxaceae/Rosaceae/Cornaceae/Rhamnaceae
+Common Wood Nymph,Cercyonis,pegala,Cercyonis pegala,Nymphalidae,Satyrinae,yes,native,Poaceae
+Gorgone Checkerspot,Chlosyne,gorgone,Chlosyne gorgone,Nymphalidae,Nymphalinae,no,native,Asteraceae
+Silvery Checkerspot,Chlosyne,nycteis,Chlosyne nycteis,Nymphalidae,Nymphalinae,yes,native,Asteraceae
+Orange Sulphur,Colias,eurytheme,Colias eurytheme,Pieridae,Coliadinae,yes,native,Fabaceae
+Clouded Sulphur,Colias,philodice,Colias philodice,Pieridae,Coliadinae,yes,native,Fabaceae
+Eastern Tailed Blue,Cupido,comyntas,Cupido comyntas,Lycaenidae,Polyommatinae,yes,native,Fabaceae
+Monarch,Danaus,plexippus,Danaus plexippus,Nymphalidae,Danainae,no,native,Apocynaceae
+Northern Pearly Eye,Enodia,anthedon,Enodia anthedon,Nymphalidae,Satyrinae,,native,
+Silver-Spotted Skipper,Epargyreus,clarus,Epargyreus clarus,Hesperiidae,Pyrginae,yes,native,Fabaceae
+Indigo Duskywing,Erynnis,baptisiae,Erynnis baptisiae,Hesperiidae,Pyrginae,no,native,Fabaceae
+Horace's Duskywing,Erynnis,horatius,Erynnis horatius,Hesperiidae,Pyrginae,,native,Fagaceae
+Unknown Duskywing,Erynnis,sp.,Erynnis sp.,Hesperiidae,Pyrginae,unknown,unknown,unknown
+Two-Spotted Skipper,Euphyes,bimacula,Euphyes bimacula,Hesperiidae,Hesperiinae,no,native,Cyperaceae
+Dun Skipper,Euphyes,vestris,Euphyes vestris,Hesperiidae,Hesperiinae,yes,native,Unk
+Variegated Fritillary,Euptoeita,claudia,Euptoeita claudia,Nymphalidae,Heliconiinae,yes,native,Violaceae
+Zebra Swallowtail,Eurytides,marcellus,Eurytides marcellus,Papilionidae,Papilioninae,no,native,Annonaceae
+Fiery Skipper,Hylephila,phyleus,Hylephila phyleus,Hesperiidae,Hesperiinae,yes,native,
+Common Buckeye,Junonia,coenia,Junonia coenia,Nymphalidae,Nymphalinae,yes,native,Plantaginaceae/Acanthaceae/Scrophulariaceae
+Viceroy,Limenitis,archippus,Limenitis archippus,Nymphalidae,Limenitidinae,yes,native,Salicaceae
+Red-Spotted Purple,Limenitis,arthemis,Limenitis arthemis,Nymphalidae,Limenitidinae,yes,native,Fagaceae/Salicaceae/Rosaceae
+Melissa Blue,Lycaedies,melissa,Lycaedies melissa,Lycaenidae,Polyommatinae,no,native,
+Gray Copper,Lycaena,dione,Lycaena dione,Lycaenidae,Lycaeninae,yes,native,Polygonaceae
+Bronze Copper,Lycaena,hyllus,Lycaena hyllus,Lycaenidae,Lycaeninae,yes,native,Polygonaceae
+Little Wood Satyr,Megisto,cymela,Megisto cymela,Nymphalidae,Satyrinae,yes,native,Poaceae
+Dainty Sulphur,Nathalis,iole,Nathalis iole,Pieridae,Coliadinae,yes,native,Asteraceae
+Mourning Cloak,Nymphalis,antiopa,Nymphalis antiopa,Nymphalidae,Nymphalinae,yes,native,Salicaceae/Ulmaceae/Cannabaceae
+Giant Swallowtail,Papilio,cresphontes,Papilio cresphontes,Papilionidae,Papilioninae,yes,native,Oleaceae
+Eastern Tiger Swallowtail,Papilio,glaucus,Papilio glaucus,Papilionidae,Papilioninae,yes,native,Oleaceae/Rosaceae
+Black Swallowtail,Papilio,polyxenes,Papilio polyxenes,Papilionidae,Papilioninae,yes,native,Apiaceae
+Cloudless Sulphur,Phoebis,sennae,Phoebis sennae,Pieridae,Coliadinae,,native,
+Common Sootywing,Pholisora,catullus,Pholisora catullus,Hesperiidae,Pyrginae,yes,native,
+Pearl Crescent,Phyciodes,tharos,Phyciodes tharos,Nymphalidae,Nymphalinae,yes,native,Asteraceae
+Cabbage White,Pieris,rapae,Pieris rapae,Pieridae,Pierinae,yes,exotic,Brassicaceae
+Hobomok Skipper,Poanes,hobomok,Poanes hobomok,Hesperiidae,Hesperiinae,,native,
+Crossline Skipper,Polites,origenes,Polites origenes,Hesperiidae,Hesperiinae,,native,
+Peck's Skipper,Polites,peckius,Polites peckius,Hesperiidae,Hesperiinae,yes,native,Poaceae
+Tawny-Edged Skipper,Polites,themistocles,Polites themistocles,Hesperiidae,Hesperiinae,yes,native,Poaceae
+Eastern Comma,Polygonia,comma,Polygonia comma,Nymphalidae,Nymphalinae,yes,native,Ulmaceae/Cannabaceae/Urticaceae
+Question Mark,Polygonia,interrogationis,Polygonia interrogationis,Nymphalidae,Nymphalinae,yes,native,Ulmaceae/Cannabaceae/Urticaceae
+Unknown Comma,Polygonia,sp.,Polygonia sp.,Nymphalidae,Nymphalinae,unknown,unknown,unknown
+Checkered White,Pontia,protodice,Pontia protodice,Pieridae,Pierinae,,native,
+Common Checkered Skipper,Pyrgus,communis,Pyrgus communis,Hesperiidae,Pyrginae,,native,
+Little Yellow,Pyrisitia,lisa,Pyrisitia lisa,Pieridae,Coliadinae,yes,native,Fabaceae
+Edward's Hairstreak,Satyrium,edwardsii,Satyrium edwardsii,Lycaenidae,Theclinae,no,native,Fagaceae
+Coral Hairstreak,Satyrium,titus,Satyrium titus,Lycaenidae,Theclinae,yes,native,Rosaceae
+Great Spangled Fritillary,Speyeria,cybele,Speyeria cybele,Nymphalidae,Heliconiinae,yes,native,Violaceae
+Regal Fritillary,Speyeria,idalia,Speyeria idalia,Nymphalidae,Heliconiinae,no,native,Violaceae
+Gray Hairstreak,Strymon,melinus,Strymon melinus,Lycaenidae,Theclinae,,native,
+Southern Cloudywing,Thorybes,bathyllus,Thorybes bathyllus,Hesperiidae,Pyrginae,yes,native,
+Unknown Cloudywing,Thorybes,sp.,Thorybes sp.,Hesperiidae,Pyrginae,unknown,unknown,unknown
+European Skipper,Thymelicus,lineola,Thymelicus lineola,Hesperiidae,Hesperiinae,yes,exotic,Poaceae
+Unknown Skipper,,,Unknown Hesperiid,Hesperiidae,–,unknown,unknown,unknown
+Unknown Butterfly,,,Unknown Lepidoptera,–,–,unknown,unknown,unknown
+Unknown Gossamer-Wing,,,Unknown Lycaenid,Lycaenidae,–,unknown,unknown,unknown
+Unknown Brush-Foot,,,Unknown Nymphalid,Nymphalidae,–,unknown,unknown,unknown
+Unknown Swallowtail,,,Unknown Papilionid,Papilionidae,–,unknown,unknown,unknown
+Unknown Pierid,,,Unknown Pierid,Pieridae,–,unknown,unknown,unknown
+Red Admiral,Vanessa,atalanta,Vanessa atalanta,Nymphalidae,Nymphalinae,yes,native,Urticaceae
+Painted Lady,Vanessa,cardui,Vanessa cardui,Nymphalidae,Nymphalinae,yes,native,Asteraceae
+Unknown Lady,Vanessa,sp.,Vanessa sp.,Nymphalidae,Nymphalinae,unknown,unknown,unknown
+American Lady,Vanessa,virginiensis,Vanessa virginiensis,Nymphalidae,Nymphalinae,yes,native,Asteraceae
+Northern Broken-Dash,Wallengrenia,egeremet,Wallengrenia egeremet,Hesperiidae,Hesperiinae,,native,
+Southern Dogface,Zerene,cesonia,Zerene cesonia,Pieridae,Coliadinae,,native,
